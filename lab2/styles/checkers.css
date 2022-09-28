@@ -1,0 +1,55 @@
+table{
+   background-color: brown;
+   border-width: 1px;
+   border-color: brown;
+   margin: 10px;
+}
+
+td{
+   border-color: brown;
+   border-width: 2px;
+   text-align: center;
+}
+.white_field{
+   background: white;
+   width: 50px;
+   height: 50px
+}
+
+.black_field{
+   background: black;
+   width: 50px;
+   height: 50px
+}
+
+.info_field{
+   background-color: grey;
+   width: 50px;
+   height: 50px
+}
+
+.white_pawn{
+   color: grey;
+   border: solid 2px grey;
+   /*border-color: grey;*/
+   width: 30px;
+   height: 30px;
+   -webkit-border-radius: 25px;
+   -moz-border-radius: 25px;
+   border-radius: 25px;
+   background: white;
+   padding: 2px;
+   margin: 5px;
+}
+
+.black_pawn{
+   color: black;
+   border: solid 2px grey;
+   /*border-color: grey;*/
+   width: 30px;
+   height: 30px;
+   border-radius: 25px;
+   background: brown;
+   padding: 2px;
+   margin: 5px;
+}
